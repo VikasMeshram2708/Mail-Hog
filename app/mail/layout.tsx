@@ -1,6 +1,3 @@
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
-import MailSideBar from "../../components/mail/mail-sidebar";
-
 export default function Layout({
   children,
 }: Readonly<{
@@ -8,8 +5,6 @@ export default function Layout({
 }>) {
   return (
     <div className="h-screen w-full b">
-      {/* <MailSideBar />
-      <SidebarTrigger /> */}
       {children}
     </div>
   );
